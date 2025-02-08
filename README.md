@@ -2,6 +2,8 @@
 
 This project uses C++ to model the hit rate and accuracy of different types of cache systems, including direct-mapped, set-associative, fully-associative, and two-level caches, and examines the accuracy of different write-policies for stores instructions. 
 
+Based on the simulated results, higher associativity tends to lead to a higher hit rate. 
+
 In this directory are three .txt files containing a few million rows of instruction addresses and type, expected results (given by course instructor), and results files that are populated by running this program. 
 
 Direct-mapped caches map groups of addresses to a block using index bits. When an address in memory needs to be accessed, it checks that corresponding cache block to see if that address is in that block. If not, the most recently used block will replace the current cache block. Caches take advantage of space locality, as data that is close in memory to previously accessed data will be readily available in the cache. 
